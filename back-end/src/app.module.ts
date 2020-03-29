@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
 import * as ormOptions from './config/orm';
+import RepoModule from './repositories/repo.module';
 
 @Module({
   imports: [TypeOrmModule.forRoot(ormOptions), RepoModule],
