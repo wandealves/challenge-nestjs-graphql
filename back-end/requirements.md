@@ -21,6 +21,8 @@
 ## Dependências
 
 - yarn add dataloader graphql graphql-tools type-graphql typeorm graphql apollo-server-express voyager @types/graphql @nestjs/graphql sqlite3 @nestjs/typeorm
+- yarn add type-graphql graphql dataloader @nestjs/graphql apollo-server-express
+- yarn add --dev @types/graphql
 
 ## Comandos aplicação
 
