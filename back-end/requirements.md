@@ -21,3 +21,9 @@
 ## Dependências
 
 - yarn add dataloader graphql graphql-tools type-graphql typeorm graphql apollo-server-express voyager @types/graphql @nestjs/graphql sqlite3 @nestjs/typeorm
+
+## Comandos aplicação
+
+- yarn typeorm migration:create -n create-users --config src/config/orm.ts
+- yarn typeorm migration:create -n create-messages --config src/config/orm.ts
+- yarn typeorm migration:run
