@@ -29,3 +29,5 @@
 - yarn typeorm migration:create -n create-users --config src/config/orm.ts
 - yarn typeorm migration:create -n create-messages --config src/config/orm.ts
 - yarn typeorm migration:run
+
+-1:32

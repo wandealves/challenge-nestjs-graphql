@@ -1,0 +1,44 @@
+query{
+  getUsers{
+    id,
+    email
+  }
+}
+
+
+mutation{
+  createUser(data:{
+    email:"joaquim@email.com"
+  }){
+    id,
+    email,
+    createdAt,
+    updatedAt
+  }
+}
+
+query{
+  getMessagesFromUser(userId: 1){
+    id,
+    content,
+    user{
+      id,
+      email
+    }
+  }
+}
+
+mutation{
+  createMessage(data:{
+    userId: 1,
+    content: "OPA!"
+  }){
+    id,
+    content,
+    userId,
+    user{
+      id,
+      email
+    }
+  }
+}
