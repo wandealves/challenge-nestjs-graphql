@@ -30,4 +30,8 @@
 - yarn typeorm migration:create -n create-messages --config src/config/orm.ts
 - yarn typeorm migration:run
 
+## Graphql Web
+
+- http://localhost:3333/graphql
+
 -1:32

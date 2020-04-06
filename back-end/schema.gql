@@ -26,6 +26,7 @@ input MessageInput {
 
 type Mutation {
   createUser(data: UserInput!): User!
+  createOrLoginUser(data: UserInput!): User!
   createMessage(data: MessageInput!): Message!
   deleteMessage(data: DeleteMessageInput!): Message!
 }

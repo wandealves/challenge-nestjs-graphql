@@ -22,7 +22,7 @@ export default class UserResolver {
         const user = this.repoService.userRepo.create({ email: input.email });
         return this.repoService.userRepo.save(user);
     }
-    /*
+
     @Mutation(() => User)
     public async createOrLoginUser(
         @Args('data') input: UserInput,
@@ -40,5 +40,5 @@ export default class UserResolver {
         }
 
         return user;
-    }*/
+    }
 }
